@@ -1,0 +1,15 @@
+.navigation {
+  margin: 0 auto;
+  width: fit-content;
+  &_list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+  }
+
+  &_item + &_item {
+    margin: 0 2rem;
+  }
+}
