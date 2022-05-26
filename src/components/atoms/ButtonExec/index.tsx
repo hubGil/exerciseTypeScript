@@ -1,5 +1,3 @@
-import { useState } from 'react'
-
 type ButtonProp = {
 	content?: string
 	children?: React.ReactNode
