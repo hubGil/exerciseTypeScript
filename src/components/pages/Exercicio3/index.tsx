@@ -1,4 +1,4 @@
-import ButtonExecList from '@/components/molecules/ButtonExecList'
+import { ButtonExecList } from '@/components/molecules'
 
 function Exercicio3() {
 	return <ButtonExecList />

@@ -8,10 +8,6 @@ function Nav() {
 			page: 'Home'
 		},
 		{
-			link: '#',
-			page: 'Exercicios'
-		},
-		{
 			link: '/exercicio1',
 			page: 'Exercicio1'
 		},

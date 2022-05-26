@@ -9,7 +9,11 @@ function ButtonExec({ content, children }: ButtonProp) {
 	function hey() {
 		alert(content ? content : children)
 	}
-	return <button onClick={hey}>{content ? content : children}</button>
+	return (
+		<button type='button' onClick={hey}>
+			{content ? content : children}
+		</button>
+	)
 }
 
 export default ButtonExec

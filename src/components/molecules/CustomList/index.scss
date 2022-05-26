@@ -1,0 +1,19 @@
+.customList {
+	list-style: none;
+	border: 0.1rem solid rgb(228, 228, 228);
+	border-radius: 0.5rem;
+	width: fit-content;
+	padding: 0;
+
+	&__item {
+		padding: 1rem;
+	}
+
+	&__item + &__item {
+		border-top: 0.1rem solid rgb(228, 228, 228);
+	}
+
+	&__text:last-child {
+		margin-left: 1rem;
+	}
+}

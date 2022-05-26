@@ -1,5 +1,11 @@
+import { FormCustom } from '@/components/molecules'
+import './index.scss'
 function Exercicio7() {
-  return <h2>Exercicio7</h2>;
+	return (
+		<section className='sectionFormCustom'>
+			<FormCustom />
+		</section>
+	)
 }
 
-export default Exercicio7;
+export default Exercicio7

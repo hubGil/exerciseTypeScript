@@ -1,5 +1,16 @@
+import './index.scss'
 function Exercicio5() {
-  return <h2>Exercicio5</h2>;
+	const animals = ['dog', 'cat', 'chicken', 'cow', 'sheep', 'horse']
+
+	return (
+		<section className='animals'>
+			<ul>
+				{animals.map((animal, index) => (
+					<li key={index}>{animal}</li>
+				))}
+			</ul>
+		</section>
+	)
 }
 
-export default Exercicio5;
+export default Exercicio5
