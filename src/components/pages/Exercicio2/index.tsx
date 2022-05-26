@@ -4,7 +4,7 @@ function Exercicio2() {
 		alert('Clicked')
 	}
 	return (
-		<button className='btn' onClick={hey}>
+		<button className='btn' type='button' onClick={hey}>
 			Click me
 		</button>
 	)

@@ -2,9 +2,9 @@ import './index.scss'
 
 function Exercicio1() {
 	return (
-		<header className='header'>
+		<section className='header'>
 			<h1 className='header__title'>Hello, World</h1>
-		</header>
+		</section>
 	)
 }
 
