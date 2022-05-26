@@ -1,5 +1,13 @@
+import './index.scss'
 function Exercicio2() {
-  return <h2>Exercicio2</h2>;
+	function hey() {
+		alert('Clicked')
+	}
+	return (
+		<button className='btn' onClick={hey}>
+			Click me
+		</button>
+	)
 }
 
-export default Exercicio2;
+export default Exercicio2

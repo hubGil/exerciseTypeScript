@@ -1,5 +1,7 @@
+import ButtonExecList from '@/components/molecules/ButtonExecList'
+
 function Exercicio3() {
-  return <h2>Exercicio3</h2>;
+	return <ButtonExecList />
 }
 
-export default Exercicio3;
+export default Exercicio3

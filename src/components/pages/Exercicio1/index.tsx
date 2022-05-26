@@ -1,5 +1,11 @@
+import './index.scss'
+
 function Exercicio1() {
-  return <h2>Exercicio1</h2>;
+	return (
+		<header className='header'>
+			<h1 className='header__title'>Hello, World</h1>
+		</header>
+	)
 }
 
-export default Exercicio1;
+export default Exercicio1

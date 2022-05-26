@@ -1,0 +1,14 @@
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #fec800;
+	width: 30rem;
+	height: 30rem;
+	margin: 0 auto;
+
+	&__title {
+		font-size: 1.2rem;
+		font-weight: 400;
+	}
+}
